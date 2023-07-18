@@ -1,0 +1,90 @@
+:root {
+  --yellow: #EAC926;
+  --blue: #03264C;
+  --ligth-blue: #3483fa;
+  --dark-gray: #667;
+  --light-gray: #ebebeb;
+  --green: #39b54a;
+  --black: #202023;
+  --white: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin: 0;
+  color: var(--black);
+}
+
+.main-header {
+  background-color: var(--yellow);
+}
+
+h2 {
+  font-size: 24px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logo {
+  width: 200px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.discount, .description {
+  font-size: 16px;
+}
+
+.burger-menu {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 1rem;
+  background-color: var(--ligth-blue);
+  border-radius: .5rem;
+}
+
+.fa-solid.fa-bars {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+footer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer div > * {
+  text-align: center;
+}
+
+footer > div {
+  margin-bottom: 2rem;
+}
+
+.fa-solid.fa-credit-card,
+.fa-solid.fa-gift,
+.fa-solid.fa-user-shield {
+  color: var(--ligth-blue);
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
