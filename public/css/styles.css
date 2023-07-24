@@ -14,6 +14,7 @@ body {
   font-size: 12px;
   margin: 0;
   color: var(--black);
+  background-color: var(--light-gray);
 }
 
 .main-header {
@@ -39,16 +40,55 @@ a {
   color: var(--black);
 }
 
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: var(--dark-gray);
+}
+
 .logo {
   width: 200px;
 }
 
 .price {
   font-size: 18px;
+  margin-bottom: .5rem;
 }
 
 .discount, .description {
   font-size: 16px;
+}
+
+.discount {
+  color: var(--green);
+  margin-top: 0;
+}
+
+.description {
+  color: var(--dark-gray);
+  margin-bottom: .5rem;
+}
+
+.product {
+  margin-bottom: 1rem;
+}
+
+.content {
+  border-top: 1px solid var(--light-gray);
+  padding: 1rem;
 }
 
 .burger-menu {
@@ -62,6 +102,11 @@ a {
 
 .fa-solid.fa-bars {
   color: var(--white);
+  font-size: 1rem;
+}
+
+.fa-solid.fa-truck {
+  color: var(--green);
   font-size: 1rem;
 }
 
@@ -87,4 +132,20 @@ footer > div {
   text-align: center;
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+.login-navbar, .site {
+  display: none;
+}
+
+@media (min-width: 361px) {
+  .description {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  * {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
 }
