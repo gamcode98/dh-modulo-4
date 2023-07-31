@@ -25,7 +25,6 @@ body {
 .main-header {
   background-color: var(--yellow);
   margin-bottom: 1rem;
-  padding: 1rem;
 }
 
 .main-header div {
@@ -34,6 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  padding-top: 1rem;
 }
 
 .main-header div p {
@@ -155,6 +155,7 @@ main section article i {
 .burger-menu {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
   width: fit-content;
   padding: 1rem;
   background-color: var(--ligth-blue);
@@ -214,6 +215,7 @@ footer > div {
   .main-header div {
     justify-content: space-between;
     margin-bottom: 1rem;
+    padding: 1rem;
   }
 
   .main-header div p {
@@ -235,8 +237,10 @@ footer > div {
   main section .products{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: flex-start;
     gap: 1rem;
+    margin-bottom: 1rem;
   }
 
   main section article {
@@ -252,6 +256,9 @@ footer > div {
   .site {
     display: flex;
     gap: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
   }
 
   nav {
@@ -261,6 +268,10 @@ footer > div {
 }
 
 @media (min-width: 1024px) {
+
+  main section header h2 {
+    text-align: initial;
+  }
 
   main section article {
     max-width: 250px;
