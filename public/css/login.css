@@ -2,6 +2,7 @@
   --yellow: #EAC926;
   --blue: #03264C;
   --ligth-blue: #3483fa;
+  --dark-blue: #0022AA;
   --dark-gray: #667;
   --light-gray: #ebebeb;
   --green: #39b54a;
@@ -82,6 +83,10 @@ input[type="submit"] {
 
   input[type="submit"] {
     cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: var(--dark-blue);
   }
 
 }

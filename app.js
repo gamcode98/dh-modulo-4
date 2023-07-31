@@ -19,7 +19,7 @@ app.post(['/login', '/signup'], (req, res) => {
   res.redirect('/');
 })
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.listen(PORT, () => { 
   console.log(`Server running on: http://localhost:${PORT}`);
